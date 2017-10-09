@@ -1,12 +1,57 @@
 body {
-  font-family: "Helvetica", sans-serif;
+margin: 0 0;}
+  h1 {
+color:white;
+font-family: "Trebuchet MS","Times New Roman",serif;
+font-size: 5em;
+text-align:center; background-image: url("LM_outside_dark.png");background-size: 100% 100%;
+margin-top:0;}
+h2{font-family: "Trebuchet MS","Times New Roman", serif;
+font-size: 1.5em;
+text-align:center;}
+h3{font-family: "Trebuchet MS","Times New Roman", serif;
+font-size: 2em;
+text-align:center;}
+h4{font-family: "Trebuchet MS","Times New Roman", serif;
+font-size: 1.3em;
+text-align:center;}
+h5{font-family: "Trebuchet MS","Times New Roman", serif;
+font-size: 1.5em;
+text-align:center;}
+p {font-family: "Trebuchet MS", Helvetica,sans-serif;
+font-size: 1em;
+text-align: center;
+line-height: 1.5;
+width: 90%;
+margin-left: 10%;
+margin-right: 0;
 }
-
-h2 {
-  color: #7A0019;
+a {
+  color: #c41515;}
+#container {
+  margin:auto;
 }
+#column1 {
+  float:left;
+  width:30%;
+  margin-left: 5%;
+  margin-right: 5%;
 
-#contact {
-  background-color: #FFDE7A;
-  padding: 2%;
+}
+#column2 {
+  float:left;
+  width:70%;
+}
+#FTdate {font-size: 1em; font-weight: bold;}
+#FTname {color=#b20e0e; font-weight=900;font-size: 1em;}
+#eventText {text-align: center; font-size: 1.1em;}
+.border{
+  border-style: solid;
+  border-color: #c41515;
+  border-width: 6px;
+}
+.border2{
+  border-style: solid;
+  border-color: #ce6207;
+  border-width: 6px;
 }
